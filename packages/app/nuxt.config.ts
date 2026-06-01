@@ -1,13 +1,13 @@
 export default defineNuxtConfig({
     compatibilityDate: "2025-01-15",
 
-    modules: ["@nuxt/eslint", "@nuxtjs/i18n", "@nuxt/fonts"],
+    modules: ["@nuxtjs/i18n", "@nuxt/fonts"],
 
-    i18n: {
-        defaultLocale: "en",
-        detectBrowserLanguage: false,
-        locales: [{ code: "en", name: "English", file: "en.json" }],
-    },
+    // i18n: {
+    //     defaultLocale: "en",
+    //     detectBrowserLanguage: false,
+    //     locales: [{ code: "en", name: "English", file: "en.json" }],
+    // },
 
     fonts: {
         defaults: {

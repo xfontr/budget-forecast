@@ -1,8 +1,11 @@
 {
-  "name": "budget-planner",
-  "version": "0.0.1",
-  "description": "",
-  "author": "Xifré Font",
-  "license": "ISC",
-  "packageManager": "pnpm@10.7.1"
+    "name": "budget-planner",
+    "version": "0.0.1",
+    "description": "",
+    "author": "Xifré Font",
+    "license": "ISC",
+    "packageManager": "pnpm@10.7.1",
+    "scripts": {
+        "lint": "pnpm -r lint"
+    }
 }
